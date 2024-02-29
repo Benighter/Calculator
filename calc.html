@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <input type="text" id="result" class="result-input" readonly><br>
+    <input type="button" value="1" class="calc-button" onclick="insert('1')">
+    <input type="button" value="2" class="calc-button" onclick="insert('2')">
+    <input type="button" value="3" class="calc-button" onclick="insert('3')">
+    <input type="button" value="+" class="calc-button" onclick="insert('+')"><br>
+    <input type="button" value="4" class="calc-button" onclick="insert('4')">
+    <input type="button" value="5" class="calc-button" onclick="insert('5')">
+    <input type="button" value="6" class="calc-button" onclick="insert('6')">
+    <input type="button" value="-" class="calc-button" onclick="insert('-')"><br>
+    <input type="button" value="7" class="calc-button" onclick="insert('7')">
+    <input type="button" value="8" class="calc-button" onclick="insert('8')">
+    <input type="button" value="9" class="calc-button" onclick="insert('9')">
+    <input type="button" value="*" class="calc-button" onclick="insert('*')"><br>
+    <input type="button" value="0" class="calc-button" onclick="insert('0')">
+    <input type="button" value="." class="calc-button" onclick="insert('.')">
+    <input type="button" value="=" class="calc-button" onclick="calculate()">
+    <input type="button" value="/" class="calc-button" onclick="insert('/')"><br>
+    <input type="button" value="sqrt" class="func-button" onclick="squareRoot()">
+    <input type="button" value="pow" class="func-button" onclick="power()">
+    <input type="button" value="sin" class="func-button" onclick="sine()">
+    <input type="button" value="cos" class="func-button" onclick="cosine()"><br>
+    <input type="button" value="tan" class="func-button" onclick="tangent()">
+    <input type="button" value="log" class="func-button" onclick="logarithm()">
+    <input type="button" value="exp" class="func-button" onclick="exponential()">
+    <input type="button" value="clear" class="clear-button" onclick="clearResult()">
+    <script src="style.js"></script>
+</body>
+</html>
